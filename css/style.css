@@ -6,8 +6,9 @@
   --color-primary-light: #0a4f4f;
 
   --color-text: #1a1a1a;
+  --color-text-light: #f2ebdc;
   --color-text-muted: #555;
-  --color-text-accent: var(--color-light);
+  --color-text-accent: #1a1a1a;
 
   --color-accent: #d97925;
 
@@ -42,7 +43,7 @@
 }
 
 .text-app-light {
-  color: var(--color-light);
+  color: var(--color-text-light) !important;
 }
 
 .bg-primary-custom {
@@ -50,11 +51,15 @@
 }
 
 .bg-custom-footer {
-  background: var(--color-text);
+  background: #050a0a;
 }
 
 .bg-accent {
   background: var(--color-accent);
+}
+
+.text-custom-accent {
+  color: var(--color-text-accent) !important;
 }
 
 .text {
