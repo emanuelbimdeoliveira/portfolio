@@ -1,7 +1,7 @@
 const translations = {
   en: {
     nav: {
-      brand: "GitHub",
+      brand: "EB Dev",
       themeToggle: "Change mode",
       aboutLink: "About",
       projectsLink: "Projects",
@@ -45,7 +45,7 @@ const translations = {
 
   pt: {
     nav: {
-      brand: "GitHub",
+      brand: "EB Dev",
       themeToggle: "Mudar modo",
       aboutLink: "Sobre",
       projectsLink: "Projetos",

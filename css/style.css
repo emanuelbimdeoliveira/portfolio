@@ -24,7 +24,7 @@
 }
 
 [data-theme="dark"] {
-  --color-light: #0A0D0C;
+  --color-light: #0a0d0c;
   --color-surface: #151f1f;
 
   --color-primary: #213140;
@@ -107,4 +107,14 @@
   background-color: var(--color-accent) !important;
   transform: translateY(2px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#projects {
+  min-height: 100vh !important;
+}
+
+@media screen and (max-width: 500px) {
+  .vh-custom {
+    min-height: 30vh;
+  }
 }
