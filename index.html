@@ -27,13 +27,26 @@
     <nav
       class="navbar navbar-dark navbar-expand-lg bg-primary-custom fixed-top"
     >
-      <div class="container">
-        <a class="navbar-brand" href="#" data-i18n="nav.brand">My Portfolio</a>
+      <div class="container gap-2">
+        <a
+          class="navbar-brand"
+          target="_blank"
+          href="https://github.com/emanuelbimdeoliveira"
+          data-i18n="nav.brand"
+          >GitHub</a
+        >
         <button
           id="theme-toggle"
+          data-i18n="nav.themeToggle"
           class="btn btn-custom bg-accent border-0 rounded-pill py-1 px-3 shadow text-bold text-custom-accent"
         >
           Dark mode
+        </button>
+        <button
+          class="btn btn-custom bg-accent border-0 rounded-pill py-1 px-3 shadow text-bold text-custom-accent"
+          id="lang-toggle"
+        >
+          PT / EN
         </button>
         <button
           class="navbar-toggler"
@@ -49,7 +62,8 @@
               <a
                 class="nav-link text-app-light"
                 href="#about"
-                data-i18n="nav.about"
+                data-i18n="nav.aboutLink"
+                Link
                 >About</a
               >
             </li>
@@ -57,15 +71,23 @@
               <a
                 class="nav-link text-app-light"
                 href="#projects"
-                data-i18n="nav.projects"
+                data-i18n="nav.projectsLink"
                 >Projects</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link text-app-light"
+                href="#stacks"
+                data-i18n="nav.stacksLink"
+                >Stacks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-app-light"
                 href="#contact"
-                data-i18n="nav.contact"
+                data-i18n="nav.contactLink"
                 >Contact</a
               >
             </li>
@@ -113,8 +135,10 @@
           <div class="col-md-4">
             <div class="card h-100 bg-primary-custom text-app-light">
               <div class="card-body shadow d-flex flex-column gap-2 p-4">
-                <h5 class="card-title">Calculator JS</h5>
-                <p class="card-text mb-4">
+                <h5 class="card-title" data-i18n="projects.firstTitle">
+                  Calculator JS
+                </h5>
+                <p class="card-text mb-4" data-i18n="projects.firstText">
                   A simple calculator built with vanilla JavaScript, capable of
                   performing common mathematical operations such as addition,
                   subtraction, multiplication, division, exponentiation, and
@@ -145,8 +169,10 @@
           <div class="col-md-4">
             <div class="card h-100 bg-primary-custom text-app-light">
               <div class="card-body shadow d-flex flex-column gap-2 p-4">
-                <h5 class="card-title">Countdown Timer</h5>
-                <p class="card-text mb-4">
+                <h5 class="card-title" data-i18n="projects.secondTitle">
+                  Countdown Timer
+                </h5>
+                <p class="card-text mb-4" data-i18n="projects.secondText">
                   A modular Countdown and Chronometer web application built with
                   JavaScript. The user can switch between stopwatch and
                   countdown modes, with full control over timing, flow, and
@@ -177,8 +203,10 @@
           <div class="col-md-4">
             <div class="card h-100 bg-primary-custom text-app-light">
               <div class="card-body shadow d-flex flex-column gap-2 p-4">
-                <h5 class="card-title">Battery API</h5>
-                <p class="card-text mb-4">
+                <h5 class="card-title" data-i18n="projects.thirdTitle">
+                  Battery API
+                </h5>
+                <p class="card-text mb-4" data-i18n="projects.thirdText">
                   A web application that displays real-time battery information
                   using the Battery Status API. It shows battery level, charging
                   status, visual indicators, and subtle animations based on
@@ -211,32 +239,34 @@
     </section>
 
     <section
-      id="stack"
+      id="stacks"
       class="bg-app-light vh-custom d-flex align-items-center text mb-5"
     >
       <div class="container">
-        <h2 class="mb-4">Stack</h2>
+        <h2 class="mb-4" data-i18n="stack.title">Stack</h2>
 
         <div class="row">
           <div class="col-md-6">
-            <h5>Stack atual</h5>
+            <h5 data-i18n="stack.subtitle">Stack atual</h5>
             <ul class="list-unstyled">
               <li>HTML 5</li>
               <li>CSS 3</li>
               <li>JavaScript ES6+</li>
               <li>Bootstrap</li>
-              <li>Git e GitHub</li>
+              <li>Git - GitHub</li>
               <li>Firebase</li>
             </ul>
           </div>
 
           <div class="col-md-6">
-            <h5>Em aprendizado</h5>
+            <h5 data-i18n="stack.subtitle2">Em aprendizado</h5>
             <ul class="list-unstyled">
-              <li>Testes automatizados</li>
-              <li>Boas práticas de arquitetura FrontEnd</li>
-              <li>Python</li>
-              <li>BackEnd básico</li>
+              <li data-i18n="stack.inProgress1">Testes automatizados</li>
+              <li data-i18n="stack.inProgress2">
+                Boas práticas de arquitetura FrontEnd
+              </li>
+              <li data-i18n="stack.inProgress3">Python</li>
+              <li data-i18n="stack.inProgress4">BackEnd básico</li>
             </ul>
           </div>
         </div>
@@ -250,7 +280,7 @@
     >
       <div class="container">
         <h2 class="mb-4" data-i18n="contact.title">Contact</h2>
-        <p data-i18n="contact.text">
+        <p data-i18n="contact.subtitle">
           You can reach me via email or social networks.
         </p>
         <div class="d-flex flex-wrap gap-3">

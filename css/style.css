@@ -24,11 +24,11 @@
 }
 
 [data-theme="dark"] {
-  --color-light: #0e1414;
+  --color-light: #0A0D0C;
   --color-surface: #151f1f;
 
-  --color-primary: #0f6b6b;
-  --color-primary-light: #128080;
+  --color-primary: #213140;
+  --color-primary-light: #233145;
 
   --color-text: #e6e6e6;
   --color-text-muted: #b5b5b5;
