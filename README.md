@@ -66,8 +66,8 @@ Then simply open index.html in your browser.
 ## 📫 Contact
 You can reach me here:
 - Email: emanueldossantosbim@gmail.com
-- GitHub: github.com/emanuelbimdeoliveira
-- LinkedIn: linkedin.com/in/emanuelbim
+- GitHub: https://github.com/emanuelbimdeoliveira
+- LinkedIn: https://linkedin.com/in/emanuelbim
 
 ## 📌 Project Status
 ✔️ Active and improving
