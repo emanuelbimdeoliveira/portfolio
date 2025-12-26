@@ -22,16 +22,16 @@ This portfolio was created with the goal of presenting my work professionally an
 Here are the projects currently highlighted in my portfolio:
 
 ### 🔹 Calculator in JavaScript
-🔗 https://emanuelbimdeoliveira.github.io/calculator-js/
-📌 A simple calculator built with vanilla JavaScript, capable of performing common mathematical operations such as addition, subtraction, multiplication, division, exponentiation, and factorial. This project focuses on code organization, modular architecture, and clear separation of responsibilities.
+- 🔗 https://emanuelbimdeoliveira.github.io/calculator-js/
+- 📌 A simple calculator built with vanilla JavaScript, capable of performing common mathematical operations such as addition, subtraction, multiplication, division, exponentiation, and factorial. This project focuses on code organization, modular architecture, and clear separation of responsibilities.
 
 ### 🔹 Countdown + Stopwatch
-🔗 https://emanuelbimdeoliveira.github.io/countdown-timer/
-📌 A modular Countdown and Chronometer web application built with JavaScript. The user can switch between stopwatch and countdown modes, with full control over timing, flow, and display. The project emphasizes clean application flow, modular structure, and well-defined logic across the codebase.
+- 🔗 https://emanuelbimdeoliveira.github.io/countdown-timer/
+- 📌 A modular Countdown and Chronometer web application built with JavaScript. The user can switch between stopwatch and countdown modes, with full control over timing, flow, and display. The project emphasizes clean application flow, modular structure, and well-defined logic across the codebase.
 
 ### 🔹 Battery Status App
-🔗 https://emanuelbimdeoliveira.github.io/battery-api/
-📌 A web application that displays real-time battery information using the Battery Status API. It shows battery level, charging status, visual indicators, and subtle animations based on state changes.
+- 🔗 https://emanuelbimdeoliveira.github.io/battery-api/
+- 📌 A web application that displays real-time battery information using the Battery Status API. It shows battery level, charging status, visual indicators, and subtle animations based on state changes.
 
 
 ---
@@ -65,9 +65,9 @@ Then simply open index.html in your browser.
 
 ## 📫 Contact
 You can reach me here:
-Email: emanueldossantosbim@gmail.com
-GitHub: github.com/emanuelbimdeoliveira
-LinkedIn: linkedin.com/in/emanuelbim
+- Email: emanueldossantosbim@gmail.com
+- GitHub: github.com/emanuelbimdeoliveira
+- LinkedIn: linkedin.com/in/emanuelbim
 
 ## 📌 Project Status
 ✔️ Active and improving
