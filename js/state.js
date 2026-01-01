@@ -27,6 +27,9 @@ const translations = {
       thirdTitle: "Battery API",
       thirdText:
         "A web application that displays real-time battery information using the Battery Status API. It shows battery level, charging status, visual indicators, and subtle animations based on state changes. This project represents a refactor and evolution of an older implementation, rebuilt with a stronger architecture, better modularization, and state-driven UI updates.",
+      forthTitle: "Weather APP",
+      forthText:
+        "A modular web application that displays real-time weather information for cities around the world using the OpenWeather API. The user can search for any city and instantly see all the current conditions. The app was built with clean JavaScript architecture, separating concerns across API services, global state management and UI rendering. It also includes robust error handling to ensure a smooth user experience, even when invalid cities are searched.",
     },
     stack: {
       title: "Stacks",
@@ -71,6 +74,9 @@ const translations = {
       thirdTitle: "Status da Bateria",
       thirdText:
         "Esse projeto exibe informações da bateria em tempo real utilizando a Battery Status API. Ela mostra o nível da bateria, status de carregamento, indicadores visuais e animações sutis baseadas em mudanças de estado. Este projeto é a versão 2.0 de um que havia feito há uns meses atrás, reconstruído com uma arquitetura mais robusta, melhor modularização e atualizações de interface orientadas por estado.",
+      forthTitle: "App do Clima",
+      forthText:
+        "Esse é um app que exibe informações climáticas em tempo real de cidades ao redor do mundo, utilizando a API da OpenWeather. O usuário pode buscar qualquer cidade e visualizar instanteneamente todas as informações. O projeto utiliza uma arquitetura organizada em JavaScript, separando lógica de API, gerenciamento de estado global e renderização de interface. Também conta com tratamento de erros para garantir uma boa experiência mesmo quando a busca não retorna resultados válidos.",
     },
     stack: {
       title: "Tecnologias",

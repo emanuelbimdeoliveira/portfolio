@@ -121,14 +121,11 @@
     </section>
 
     <!-- Projects Section -->
-    <section
-      class="bg-app-light py-5 py-md-0 d-flex align-items-center"
-      id="projects"
-    >
+    <section class="bg-app-light py-5 d-flex align-items-center" id="projects">
       <div class="container">
         <h2 class="mb-4 text" data-i18n="projects.title">Projects</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
+        <div class="row g-3 g-md-5" id="project-cards">
+          <div class="col-md-6">
             <div class="card h-100 bg-primary-custom text-app-light">
               <div class="card-body shadow d-flex flex-column gap-2 p-4">
                 <h5 class="card-title" data-i18n="projects.firstTitle">
@@ -162,7 +159,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="card h-100 bg-primary-custom text-app-light">
               <div class="card-body shadow d-flex flex-column gap-2 p-4">
                 <h5 class="card-title" data-i18n="projects.secondTitle">
@@ -196,7 +193,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="card h-100 bg-primary-custom text-app-light">
               <div class="card-body shadow d-flex flex-column gap-2 p-4">
                 <h5 class="card-title" data-i18n="projects.thirdTitle">
@@ -223,6 +220,42 @@
                   <a
                     target="_blank"
                     href="https://emanuelbimdeoliveira.github.io/battery-api/"
+                    class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
+                    >Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 bg-primary-custom text-app-light">
+              <div class="card-body shadow d-flex flex-column gap-2 p-4">
+                <h5 class="card-title" data-i18n="projects.forthTitle">
+                  Weather App
+                </h5>
+                <p class="card-text mb-4" data-i18n="projects.forthText">
+                  A modular web application that displays real-time weather
+                  information for cities around the world using the OpenWeather
+                  API. The user can search for any city and instantly see all
+                  the current conditions. The app was built with clean
+                  JavaScript architecture, separating concerns across API
+                  services, global state management, UI rendering, and
+                  utilities. It also includes robust error handling to ensure a
+                  smooth user experience, even when invalid cities are searched.
+                </p>
+                <div
+                  class="card-footer border-0 mt-auto d-flex flex-start gap-3 p-0"
+                >
+                  <a
+                    target="_blank"
+                    href="https://github.com/emanuelbimdeoliveira/weather-app"
+                    class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
+                    >GitHub</a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://emanuelbimdeoliveira.github.io/weather-app/"
                     class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
                     >Demo</a
                   >
@@ -296,7 +329,7 @@
           </a>
 
           <a
-            href="https://www.linkedin.com/in/emanuel-bim"
+            href="https://www.linkedin.com/in/emanuel-bim-4a25703a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
           >
@@ -312,6 +345,26 @@
         <span>&copy; 2025 - Emanuel Bim</span>
       </div>
     </footer>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCHzXAvgTIWIxKU1svzgExzTIN0_Jb8EFs",
+        authDomain: "emanuel-bim.firebaseapp.com",
+        projectId: "emanuel-bim",
+        storageBucket: "emanuel-bim.firebasestorage.app",
+        messagingSenderId: "376262969232",
+        appId: "1:376262969232:web:02b90b7ef2cd8b9da0d515",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
