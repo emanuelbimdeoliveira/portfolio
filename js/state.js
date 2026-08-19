@@ -10,11 +10,12 @@ const translations = {
     },
     hero: {
       title: "Emanuel Bim",
-      subtitle: "JavaScript Developer focused on clean code and architecture",
+      subtitle:
+        "Computer Networks Student, Infrastructure and Software Development",
     },
     about: {
       title: "About me",
-      text: "I am a JavaScript developer focused on building simple, well-structured, and maintainable applications. I prioritize clean code, clear separation of responsibilities, and consistent architecture, even in small projects. I continuously study JavaScript fundamentals and frontend best practices, aiming to grow not only in tools but mainly in technical reasoning. My goal is to work in environments where code quality, clarity, and continuous improvement are valued.",
+      text: "I am a Computer Networks student interested in infrastructure, networking, information security, and technology. My journey began with web development, where I built projects using JavaScript and other technologies, always focusing on clean code, organization, and separation of responsibilities. Throughout my studies, I have also explored Python, API development, Node.js, authentication, databases, and PostgreSQL. I am currently focusing my studies on my field of education while keeping programming as a complementary skill that allows me to better understand software development and the integration between software and infrastructure. I continuously work to expand my knowledge through theoretical studies and practical projects, with a strong focus on fundamentals, organization, and the ability to learn new technologies.",
     },
     projects: {
       title: "Projects",
@@ -30,15 +31,20 @@ const translations = {
       forthTitle: "Weather APP",
       forthText:
         "A modular web application that displays real-time weather information for cities around the world using the OpenWeather API. The user can search for any city and instantly see all the current conditions. The app was built with clean JavaScript architecture, separating concerns across API services, global state management and UI rendering. It also includes robust error handling to ensure a smooth user experience, even when invalid cities are searched.",
+      fifthTitle: "User authentication API",
+      fifthText:
+        "A REST API built with Node.js and Express for user management and authentication. The project uses bcrypt for password protection and JSON Web Tokens (JWT) for authentication and access control on protected routes",
+      sixthTitle: "To-do List with PostgreSQL",
+      sixthText:
+        "A REST API for task management, built with Node.js and Express. The project uses PostgreSQL for data storage and implements create, read, update, and delete operations for tasks.",
     },
     stack: {
       title: "Stacks",
-      subtitle: "Actual Stacks",
-      subtitle2: "In Progress",
-      inProgress1: "Tests",
-      inProgress2: "Patterns in FrontEnd",
-      inProgress3: "Python",
-      inProgress4: "Basic BackEnd",
+      subtitle: "In progress",
+      inProgress1: "Computer Networks",
+      inProgress2: "Network infrastructure",
+      inProgress3: "Linux",
+      inProgress4: "Information Security",
     },
     contact: {
       title: "Contact",
@@ -57,11 +63,12 @@ const translations = {
     },
     hero: {
       title: "Emanuel Bim",
-      subtitle: "Desenvolvedor JavaScript focado em código limpo e arquitetura",
+      subtitle:
+        "Estudante de Redes de Computadores interessado em tecnologia e infraestrutura",
     },
     about: {
       title: "Sobre mim",
-      text: "Eu sou um desenvolvedor JavaScript com foco em construir aplicações simples, bem organizadas e fáceis de manter. Dou prioridade a código limpo, separação clara de responsabilidades e arquitetura consistente, mesmo em projetos pequenos. Estudo constantemente os fundamentos da linguagem e boas práticas de desenvolvimento frontend, buscando evoluir não apenas em ferramentas, mas principalmente em raciocínio técnico. Meu objetivo é atuar em ambientes onde qualidade, clareza e evolução contínua do código sejam valorizadas.",
+      text: "Sou estudante de Redes de Computadores, com interesse em infraestrutura, redes, segurança da informação e tecnologia. Minha trajetória começou com o desenvolvimento web, onde construí projetos utilizando JavaScript e outras tecnologias, buscando sempre aplicar código limpo, organização e separação de responsabilidades. Ao longo dos meus estudos, também explorei Python, desenvolvimento de APIs, Node.js, autenticação, bancos de dados e PostgreSQL. Atualmente, direciono meus estudos para minha área de formação, mantendo a programação como uma competência complementar que me permite compreender melhor o desenvolvimento de sistemas e a integração entre software e infraestrutura. Busco evoluir constantemente meus conhecimentos por meio de estudos teóricos e projetos práticos, valorizando principalmente fundamentos, organização e capacidade de aprender novas tecnologias.",
     },
     projects: {
       title: "Projetos",
@@ -77,15 +84,20 @@ const translations = {
       forthTitle: "App do Clima",
       forthText:
         "Esse é um app que exibe informações climáticas em tempo real de cidades ao redor do mundo, utilizando a API da OpenWeather. O usuário pode buscar qualquer cidade e visualizar instanteneamente todas as informações. O projeto utiliza uma arquitetura organizada em JavaScript, separando lógica de API, gerenciamento de estado global e renderização de interface. Também conta com tratamento de erros para garantir uma boa experiência mesmo quando a busca não retorna resultados válidos.",
+      fifthTitle: "API de autenticação de usuários",
+      fifthText:
+        "API REST desenvolvida com Node.js e Express para gerenciamento e autenticação de usuários. O projeto utiliza bcrypt para proteção de senhas e JSON Web Tokens (JWT) para autenticação e controle de acesso às rotas protegidas.",
+      sixthTitle: "Api de lista de tarefas com PostgreSQL",
+      sixthText:
+        "API REST para gerenciamento de tarefas, desenvolvida com Node.js e Express. O projeto utiliza PostgreSQL para armazenamento dos dados e implementa operações de criação, consulta, atualização e exclusão de tarefas.",
     },
     stack: {
       title: "Tecnologias",
-      subtitle: "Atualmente",
-      subtitle2: "Em aprendizado",
-      inProgress1: "Testes automatizados",
-      inProgress2: "Boas práticas de arquitetura FrontEnd",
-      inProgress3: "Python",
-      inProgress4: "BackEnd básico",
+      subtitle: "Em aprendizado",
+      inProgress1: "Redes de Computadores",
+      inProgress2: "Infraestrutura de redes",
+      inProgress3: "Linux",
+      inProgress4: "Segurança da Informação",
     },
     contact: {
       title: "Contato",

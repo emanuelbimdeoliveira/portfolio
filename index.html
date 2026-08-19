@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -28,8 +28,8 @@
       class="navbar navbar-dark navbar-expand-lg bg-primary-custom fixed-top"
     >
       <div class="container gap-2">
-        <a class="navbar-brand d-none d-sm-block" target="_blank" href="#"
-          >EB Dev</a
+        <a class="navbar-brand d-none d-sm-block" href="#"
+          >Home</a
         >
         <button
           id="theme-toggle"
@@ -97,7 +97,7 @@
       <div class="container text-center">
         <h1 class="display-4 text-bold" data-i18n="hero.title">Emanuel Bim</h1>
         <p class="lead" data-i18n="hero.subtitle">
-          JavaScript Developer focused on logic, structure, and problem solving
+          Computer Networks Student, Infrastructure and Software Development
         </p>
       </div>
     </section>
@@ -110,12 +110,19 @@
       <div class="container">
         <h2 class="mb-4" data-i18n="about.title">About Me</h2>
         <p data-i18n="about.text">
-          I am a JavaScript developer currently focused on building small to
-          medium-sized projects to strengthen my foundations in software
-          development. I care deeply about code organization, separation of
-          responsibilities, and clear data flow. Most of my projects are built
-          using modular JavaScript, with attention to maintainability and
-          readability.
+          I am a Computer Networks student interested in infrastructure,
+          networking, information security, and technology. My journey began
+          with web development, where I built projects using JavaScript and
+          other technologies, always focusing on clean code, organization, and
+          separation of responsibilities. Throughout my studies, I have also
+          explored Python, API development, Node.js, authentication, databases,
+          and PostgreSQL. I am currently focusing my studies on my field of
+          education while keeping programming as a complementary skill that
+          allows me to better understand software development and the
+          integration between software and infrastructure. I continuously work
+          to expand my knowledge through theoretical studies and practical
+          projects, with a strong focus on fundamentals, organization, and the
+          ability to learn new technologies.
         </p>
       </div>
     </section>
@@ -263,6 +270,74 @@
               </div>
             </div>
           </div>
+          <div class="col-md-6">
+            <div class="card h-100 bg-primary-custom text-app-light">
+              <div class="card-body shadow d-flex flex-column gap-2 p-4">
+                <h5 class="card-title" data-i18n="projects.fifthTitle">
+                  User authentication API
+                </h5>
+
+                <p class="card-text mb-4" data-i18n="projects.fifthText">
+                  A REST API built with Node.js and Express for user management
+                  and authentication. The project uses bcrypt for password
+                  protection and JSON Web Tokens (JWT) for authentication and
+                  access control on protected routes
+                </p>
+
+                <div
+                  class="card-footer border-0 mt-auto d-flex flex-start gap-3 p-0"
+                >
+                  <a
+                    target="_blank"
+                    href="https://github.com/emanuelbimdeoliveira/user-authentication"
+                    class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
+                    >GitHub</a
+                  >
+
+                  <a
+                    target="_blank"
+                    href="https://github.com/emanuelbimdeoliveira/user-authentication"
+                    class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
+                    >Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100 bg-primary-custom text-app-light">
+              <div class="card-body shadow d-flex flex-column gap-2 p-4">
+                <h5 class="card-title" data-i18n="projects.sixthTitle">
+                  To-do List with PostgreSQL
+                </h5>
+
+                <p class="card-text mb-4" data-i18n="projects.sixthText">
+                  A REST API for task management, built with Node.js and
+                  Express. The project uses PostgreSQL for data storage and
+                  implements create, read, update, and delete operations for
+                  tasks.
+                </p>
+
+                <div
+                  class="card-footer border-0 mt-auto d-flex flex-start gap-3 p-0"
+                >
+                  <a
+                    target="_blank"
+                    href="https://github.com/emanuelbimdeoliveira/crud-with-postgre"
+                    class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
+                    >GitHub</a
+                  >
+
+                  <a
+                    target="_blank"
+                    href="https://github.com/emanuelbimdeoliveira/crud-with-postgre"
+                    class="btn btn-custom bg-accent border-0 rounded-pill py-2 px-4 shadow text-bold text-custom-accent"
+                    >Demo</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -275,8 +350,8 @@
         <h2 class="mb-4" data-i18n="stack.title">Stack</h2>
 
         <div class="row">
-          <div class="col-md-6">
-            <h5 data-i18n="stack.subtitle">Stack atual</h5>
+          <div class="col-md-4">
+            <h5>FrontEnd</h5>
             <ul class="list-unstyled">
               <li>HTML 5</li>
               <li>CSS 3</li>
@@ -287,8 +362,20 @@
             </ul>
           </div>
 
-          <div class="col-md-6">
-            <h5 data-i18n="stack.subtitle2">Em aprendizado</h5>
+          <div class="col-md-4">
+            <h5>BackEnd</h5>
+            <ul class="list-unstyled">
+              <li>Python</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>JWT</li>
+              <li>SQLite</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h5 data-i18n="stack.subtitle">Em aprendizado</h5>
             <ul class="list-unstyled">
               <li data-i18n="stack.inProgress1">Testes automatizados</li>
               <li data-i18n="stack.inProgress2">
@@ -342,7 +429,7 @@
     <!-- Footer -->
     <footer class="py-2 bg-custom-footer text-app-light text-center">
       <div class="container">
-        <span>&copy; 2025 - Emanuel Bim</span>
+        <span>&copy; 2026 - Emanuel Bim</span>
       </div>
     </footer>
 
